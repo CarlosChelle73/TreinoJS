@@ -7,7 +7,7 @@ import{criarAluno,
       
        
 
-} from "../controllers/produto.controller.js";
+} from "../controllers/aluno.controller.js";
 
 const router = Router();
 
