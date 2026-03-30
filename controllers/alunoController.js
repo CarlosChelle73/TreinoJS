@@ -1,4 +1,4 @@
-import Aluno from "../models/Aluno.js"
+import Aluno from "../models/alunoModel.js"
 
 export async function criarAluno(req, res){
     const aluno = await Aluno.create(req.body);
